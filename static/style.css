@@ -1,0 +1,141 @@
+header {
+    background-color: #333;
+    padding: 20px;
+    display: flex;  /* Usando flexbox para distribuir os itens no header */
+    justify-content: space-between;  /* Distribui logo e nav em extremidades opostas */
+    align-items: center;  /* Alinha verticalmente o conteúdo */
+}
+
+header .logo-container {
+    display: flex;
+    align-items: center;
+}
+
+header .logo {
+    width: 100px;  /* Tamanho da logo */
+    height: auto;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;  /* Espaçamento entre os itens do menu */
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Ajustes gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #00ff00; /* Texto verde */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo para os títulos (h2) */
+h2 {
+    font-size: 12px;  /* Tamanho padrão para telas pequenas (celular) */
+    font-family: Arial;  /* Arial */
+    font-weight: bold;  /* Deixa os títulos em negrito */
+}
+
+/* Estilo para os parágrafos (p) */
+p {
+    font-size: 10px;  /* Tamanho padrão para telas pequenas (celular) */
+    font-family: Arial;  /* Arial */
+    font-weight: normal;  /* Remove o negrito dos parágrafos */
+}
+
+/* Media Query para telas grandes (computador) */
+@media screen and (min-width: 768px) {
+    h2 {
+        font-size: 18px; /* Tamanho maior para computadores */
+    }
+
+    p {
+        font-size: 14px; /* Tamanho maior para computadores */
+    }
+}
+
+/* Media Query para telas muito grandes (por exemplo, desktop) */
+@media screen and (min-width: 1024px) {
+    h2 {
+        font-size: 20px; /* Aumenta o tamanho do título */
+    }
+
+    p {
+        font-size: 16px; /* Aumenta o tamanho do parágrafo */
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Fundo preto */
+    color: #00ff00; /* Texto verde */
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #00ff00; /* Título verde */
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 14px;
+}
+
+section {
+    padding: 20px; /* Espaçamento interno */
+    margin: 15px 0; /* Espaçamento entre as seções */
+    background-color: #111; /* Fundo escuro das seções */
+    border-radius: 10px; /* Cantos arredondados */
+}
+
+/* Estilos específicos para as seções */
+#sobre, #portfolio, #servicos, #contato {
+    margin: 20px 0; /* Espaço entre os quadros */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    background-color: #333; /* Fundo do rodapé */
+}
+footer {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;  /* Centraliza o conteúdo do rodapé */
+}
+
+footer nav ul {
+    list-style-type: none; /* Remove os pontos de lista */
+    padding: 0;
+    margin: 0;
+}
+
+footer nav ul li {
+    display: inline; /* Exibe os itens em linha */
+    margin: 0 15px; /* Adiciona espaço entre os itens */
+}
+
+footer nav ul li a {
+    color: #fff; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+footer nav ul li a:hover {
+    color: #007bff; /* Cor dos links quando passa o mouse por cima */
+}
