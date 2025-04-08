@@ -1,25 +1,29 @@
 @media (max-width: 768px){
     header{
         display: flex;
+        padding: 0px;
         flex-direction: column;
         align-items: flex-start;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
     ul{
-       
+       width: 100%;
       display: flex;
-      gap: 10px;
     }
     ul li {
-        padding-top: 10px;
+        padding-top: 10px;  
     }
+
     .logo-container img{
         padding-bottom: 30px;
-        
+        padding-right: 40px;
     }
    p{
-    font-size: 17px;
+    font-size: 15px;
+   }
+   #portfolio{
+    height: 100%;
    }
    footer{
     border-bottom-left-radius: 10px;

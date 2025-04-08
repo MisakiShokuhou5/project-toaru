@@ -13,7 +13,7 @@ main{
     
     padding: 10px;
 }
-    
+
 ul li a:hover{
   border-bottom: 2px solid white;
   
@@ -25,9 +25,9 @@ section h2{
 header {
     background-color: #333;
     padding: 20px;
-    display: flex;  /* Usando flexbox para distribuir os itens no header */
-    justify-content: space-between;  /* Distribui logo e nav em extremidades opostas */
-    align-items: center;  /* Alinha verticalmente o conteúdo */
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
 }
 
 header .logo-container {
@@ -36,7 +36,7 @@ header .logo-container {
 }
 
 header .logo {
-    width: 100px;  /* Tamanho da logo */
+    width: 100px;  
     height: auto;
 }
 
@@ -48,7 +48,7 @@ header nav ul {
 }
 
 header nav ul li {
-    margin: 0 15px;  /* Espaçamento entre os itens do menu */
+    margin: 0 15px;  
 }
 
 header nav ul li a {
@@ -57,61 +57,61 @@ header nav ul li a {
     font-size: 16px;
 }
 
-/* Ajustes gerais */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #000;
-    color: #00ff00; /* Texto verde */
+    color: #00ff00; 
     margin: 0;
     padding: 20px;
 }
 
-/* Estilo para os títulos (h2) */
+
 h2 {
-    font-size: 12px;  /* Tamanho padrão para telas pequenas (celular) */
-    font-family: Arial;  /* Arial */
-    font-weight: bold;  /* Deixa os títulos em negrito */
+    font-size: 12px;  
+    font-family: Arial;  
+    font-weight: bold; 
 }
 
-/* Estilo para os parágrafos (p) */
+
 p {
-    font-size: 10px;  /* Tamanho padrão para telas pequenas (celular) */
-    font-family: Arial;  /* Arial */
-    font-weight: normal;  /* Remove o negrito dos parágrafos */
+    font-size: 10px;  
+    font-family: Arial;  
+    font-weight: normal;  
 }
 
-/* Media Query para telas grandes (computador) */
+
 @media screen and (min-width: 768px) {
     h2 {
-        font-size: 18px; /* Tamanho maior para computadores */
+        font-size: 18px; 
     }
 
     p {
-        font-size: 14px; /* Tamanho maior para computadores */
+        font-size: 14px; 
     }
 }
 
-/* Media Query para telas muito grandes (por exemplo, desktop) */
+
 @media screen and (min-width: 1024px) {
     h2 {
-        font-size: 20px; /* Aumenta o tamanho do título */
+        font-size: 20px; 
     }
 
     p {
-        font-size: 16px; /* Aumenta o tamanho do parágrafo */
+        font-size: 16px;
     }
 }
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #000000; /* Fundo preto */
-    color: #00ff00; /* Texto verde */
+    background-color: #000000; 
+    color: #00ff00; 
     margin: 0;
     padding: 20px;
 }
 
 h1 {
-    color: #00ff00; /* Título verde */
+    color: #00ff00; 
     font-size: 16px;
 }
 
@@ -134,25 +134,24 @@ h2 {
     border: none;
 }
 section {
-    padding: 20px; /* Espaçamento interno */
-    margin: 15px 0; /* Espaçamento entre as seções */
-    background-color: #111; /* Fundo escuro das seções */
-    border-radius: 2px; /* Cantos arredondados */
+    padding: 20px;
+    margin: 15px 0; 
+    background-color: #111; 
+    border-radius: 2px; 
     border-bottom: 1px solid white;
 }
 
-/* Estilos específicos para as seções */
+
 #sobre, #portfolio, #servicos, #contato {
-    margin: 20px 0; /* Espaço entre os quadros */
+    margin: 20px 0; 
     height: 250px;
     width: 100%;
 }
 
 footer {
     text-align: center;
-    /* padding: 10px; */
     font-size: 12px;
-    background-color: #333; /* Fundo do rodapé */
+    background-color: #333;
     bottom: 0;
     width: 100%;
     height: 100px;
@@ -162,27 +161,26 @@ footer {
 }
 footer {
     background-color: #333;
-    /* padding: 20px 0; */
-    text-align: center;  /* Centraliza o conteúdo do rodapé */
+    text-align: center; 
 }
 
 footer nav ul {
-    list-style-type: none; /* Remove os pontos de lista */
+    list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
 footer nav ul li {
-    display: inline; /* Exibe os itens em linha */
-    margin: 0 15px; /* Adiciona espaço entre os itens */
+    display: inline;
+    margin: 0 15px;
 }
 
 footer nav ul li a {
-    color: #fff; /* Cor dos links */
-    text-decoration: none; /* Remove o sublinhado */
-    font-size: 16px; /* Tamanho da fonte */
+    color: #fff;
+    text-decoration: none; 
+    font-size: 16px;
 }
 
 footer nav ul li a:hover {
-    color: #007bff; /* Cor dos links quando passa o mouse por cima */
+    color: #007bff; 
 }
